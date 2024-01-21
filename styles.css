@@ -17,21 +17,25 @@ body {
     padding: 20px;
     color: white;
     box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
 }
 .main-content {
     flex: 2;
     padding: 20px;
     box-sizing: border-box;
 }
-.logo {
+.logo, .icons, .user, .footer {
+    display: flex;
+    flex-direction: column;
     align-items: center;
+    width: 100%;
 }
-.icons {
-    align-items: center;
+.user h3, .footer p {
+    text-align: center;
 }
-.user {
-    align-items: center;
-}
-.user {
-    align-items: center;
+.user, .footer {
+    margin-top: auto;
 }
