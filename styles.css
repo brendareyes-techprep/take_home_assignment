@@ -12,12 +12,12 @@ body {
     height: 100%;
 }
 .sidebar {
-    flex-basis: 33.33%;
+    flex: 1;
     background-color: #00008B;
     padding: 20px;
     color: white;
 }
 .main-content {
-    flex-basis: 66.66%;
+    flex: 2;
     padding: 20px;
 }
