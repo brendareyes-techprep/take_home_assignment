@@ -3,7 +3,9 @@ body {
     background-color: white;
     background-position: right bottom;
     background-repeat: no-repeat;
-    height: 50vh;
+    background-size: contain;
+    height: 100vh;
+    margin: 0;
 }
 .container {
     display: flex;
