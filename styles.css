@@ -16,26 +16,39 @@ body {
     background-color: #000080;
     padding: 20px;
     color: white;
-    box-sizing: border-box;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
-.main-content {
-    flex: 2;
-    padding: 20px;
-    box-sizing: border-box;
-}
-.logo, .icons, .user, .footer {
+.sidebar-content, .sidebar-footer {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
 }
-.user h3, .footer p {
+.main-content {
+    flex: 2;
+    padding: 20px;
+}
+.logo img, .icons img, .user img {
+    width: 100%;
+    max-width: 50px;
+}
+.icons p, .user h3 {
     text-align: center;
+    width: 100%;
 }
-.sidebar-footer {
-    align-self: flex-end;
-    width: 100%
+.footer{
+    text-align: center;
+    width: 100%;
+    position: sticky;
+    bottom: 0;
+    left: 0;
 }
+.icons, .user {
+    margin-bottom: 20px;
+}
+.footer p{
+    margin-top: 20px;
+}
+
