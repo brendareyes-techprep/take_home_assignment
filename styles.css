@@ -5,3 +5,15 @@ body {
     background-repeat: no-repeat;
     height: 50px;
 }
+.container {
+    display: flex;
+}
+.sidebar {
+    width: 200px;
+    background-color: blue;
+    padding: 20px;
+}
+.main-container {
+    flex-grow: 1;
+    padding: 20px;
+}
