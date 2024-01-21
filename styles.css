@@ -29,6 +29,9 @@ body {
 .main-content {
     flex: 2;
     padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 .logo img, .icons img, .user img {
     width: 100%;
@@ -51,9 +54,36 @@ body {
 .footer p{
     margin-top: 20px;
 }
-.card{
-    border: 1px solid black;
+.card {
+    width: calc(33.33% - 20px);
+    margin-bottom: 20px;
+    background-image: url(assets/card\ bg-1.png);
+    padding: 20px;
+    box-sizing: border-box;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
-.card1{
-    border: 1px solid black;
+.syllabus-link {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+.course-icon {
+    width: 10px;
+    height: 10px;
+}
+.course-name{
+    margin-top: 10px;
+}
+.space{
+    flex-grow: 1;
+}
+.progress-status{
+    margin-top: 10px;
+}
+.arrow-link {
+    margin-top: 10px;
+    align-self: flex-start;
 }
