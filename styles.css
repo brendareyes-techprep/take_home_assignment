@@ -10,13 +10,12 @@ body {
     height: 100%;
 }
 .sidebar {
-    width: 200px;
-    background-color: #000ff0;
+    flex-basis: 33.33%;
+    background-color: blue;
     padding: 20px;
-    min-height: 100vh;
-    color: #FFFFFF;
+    color: white;
 }
-.main-container {
-    flex-grow: 1;
+.main-content {
+    flex-basis: 66.66%;
     padding: 20px;
 }
