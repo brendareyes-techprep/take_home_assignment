@@ -33,9 +33,14 @@ body {
     flex-wrap: wrap;
     justify-content: space-between;
 }
-.logo img, .icons img, .user img {
+.icons img, .user img {
     width: 100%;
     max-width: 50px;
+}
+.logo img{
+    width: 100%;
+    align-items: center;
+    max-width: 100px;
 }
 .icons p, .user h3 {
     text-align: center;
