@@ -22,7 +22,7 @@ body {
     justify-content: space-between;
 }
 .main-content {
-    flex: 3;
+    flex: 2;
     padding: 20px;
     box-sizing: border-box;
 }
@@ -34,4 +34,8 @@ body {
 }
 .user h3, .footer p {
     text-align: center;
+}
+.sidebar-footer {
+    align-self: flex-end;
+    width: 100%
 }
