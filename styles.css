@@ -34,10 +34,10 @@ body {
     width: 100%;
 }
 .user h3, .footer p {
-    text-align: center;
+    text-align: justify;
 }
 .user, .footer {
-    position: absolute;
+    position: fixed;
     bottom: 0;
     left: 0;
     z-index: 10;
