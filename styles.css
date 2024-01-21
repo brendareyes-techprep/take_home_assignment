@@ -37,5 +37,8 @@ body {
     text-align: center;
 }
 .user, .footer {
-    margin-top: auto;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 10;
 }
