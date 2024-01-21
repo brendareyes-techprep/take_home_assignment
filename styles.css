@@ -16,10 +16,10 @@ body {
     background-color: #00008B;
     padding: 20px;
     color: white;
-    height: 100%;
+    box-sizing: border-box;
 }
 .main-content {
     flex: 2;
     padding: 20px;
-    height: 100%;
+    box-sizing: border-box;
 }
