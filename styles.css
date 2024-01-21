@@ -62,7 +62,6 @@ body {
 .card {
     width: calc(33.33% - 20px);
     margin-bottom: 20px;
-    background-image: url(assets/card\ bg-1.png);
     padding: 20px;
     box-sizing: border-box;
     position: relative;
@@ -78,8 +77,8 @@ body {
     right: 10px;
 }
 .course-icon {
-    width: 50%;
-    height: 50%;
+    width: 10%;
+    height: 10%;
 }
 .course-name{
     margin-top: 10px;
@@ -93,4 +92,10 @@ body {
 .arrow-link {
     margin-top: 10px;
     align-self: flex-start;
+}
+.card1 {
+    background-image: url(assets/card\ bg-1.png);
+}
+.card2 {
+    background-image: url(assets/card\ bg-2.png);
 }
