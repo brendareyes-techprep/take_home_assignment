@@ -51,4 +51,9 @@ body {
 .footer p{
     margin-top: 20px;
 }
-
+.card{
+    border: 1px solid black;
+}
+.card1{
+    border: 1px solid black;
+}
