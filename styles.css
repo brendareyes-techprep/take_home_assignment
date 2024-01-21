@@ -42,7 +42,7 @@ body {
     align-items: center;
     max-width: 100px;
 }
-.icons p, .user h3 {
+.icons link, .user h3 {
     text-align: center;
     width: 100%;
 }
@@ -95,7 +95,11 @@ body {
 }
 .card1 {
     background-image: url(assets/card\ bg-1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 .card2 {
     background-image: url(assets/card\ bg-2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
 }
