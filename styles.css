@@ -1,7 +1,7 @@
 body {
     background-image: url(assets/illustration.png);
     background-color: white;
-    background-position: right bottom;
+    background-position: bottom 50px right 50px;
     background-repeat: no-repeat;
     background-size: 50%;
     height: 100vh;
