@@ -101,9 +101,11 @@ body {
     background-image: url(assets/card\ bg-1.png);
     background-repeat: no-repeat;
     background-size: contain;
+    background-color: white;
 }
 .card2 {
     background-image: url(assets/card\ bg-2.png);
     background-repeat: no-repeat;
     background-size: contain;
+    background-color: white;
 }
