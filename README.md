@@ -31,3 +31,9 @@ Thank you for giving me the opportunity to do this assignment, below I will list
         - "View syllabus" is located in a completely different spot than the title of the course.
 4. Once I figured out the cards, I had to figure out how to flex-wrap them.
     - I tried coding card1, card2 at first but realized it would be easier to apply several classes ie. card card 1. This way I can apply different backgrounds to each card.
+
+## Reflecting
+- Upon reflection, I really loved doing this project, it was fun!
+- When I networked at the DPI/Google event 'High-Tech Chi' a web developer from Google told me that even though it's tedious to always code as much as you can in html/css because all other frameworks are constantly updating
+    - While it is tedious I am starting to see the benefits
+- I am glad I started off with a plan because my time felt very structured. 
