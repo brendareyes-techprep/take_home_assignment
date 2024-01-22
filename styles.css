@@ -46,6 +46,10 @@ body {
     text-align: center;
     width: 100%;
 }
+.icon-link {
+    justify-content: center;
+    width: 100%;
+}
 .footer{
     text-align: center;
     width: 100%;
@@ -65,7 +69,7 @@ body {
     padding: 20px;
     box-sizing: border-box;
     position: relative;
-    display: flex;
+    display: inline-flex;
     flex-direction: column;
     align-items: flex-start;
     border: medium;
