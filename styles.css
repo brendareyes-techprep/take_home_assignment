@@ -43,12 +43,12 @@ body {
     align-items: center;
     max-width: 100px;
 }
-.icons link, .user h3 {
+.user h3 {
     text-align: center;
     width: 100%;
 }
 .icon-link {
-    justify-content: center;
+    text-align: center;
     width: 100%;
     color: white;
 }
