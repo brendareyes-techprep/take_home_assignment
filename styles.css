@@ -41,9 +41,12 @@ body {
     display: block;
     margin: auto;
 }
-.icons img, 
-.user img {
+.icons img {
     max-width: 50px;
+}
+
+.user img {
+    max-width: 100px;
 }
 .user h3 {
     text-align: center;
@@ -77,8 +80,8 @@ body {
     right: 10px;
 }
 .course-icon {
-    width: 10%;
-    height: 10%;
+    width: 30%;
+    height: 30%;
 }
 .course-name{
     margin-top: 10px;
@@ -92,18 +95,18 @@ body {
 .arrow-link {
     margin-top: 10px;
     align-self: flex-start;
-    width: 50%;
+    width: 30%;
 }
 .card1 {
     background-image: url(assets/card\ bg-1.png);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: 80%;
 
 }
 .card2 {
     background-image: url(assets/card\ bg-2.png);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: 80%;
 }
 .card-wrapper{
     display:flex;
