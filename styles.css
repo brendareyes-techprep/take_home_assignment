@@ -35,14 +35,14 @@ body {
     align-items: center;
     justify-content: center;
     width: 100%;
-    margin-top: 10px;
+    margin-top: 5px;
     padding-top: 10px;
 }
 .icon-link {
     color: white;
 }
-.icon-link:hover {
-    color: orange;
+.icon-link:hover i {
+    color: orange !important;
 }
 .user {
     display: flex;
@@ -91,7 +91,7 @@ body {
     border: 1px solid black;
 }
 .syllabus-link {
-    justify-content: end;
+    position: absolute;
     top: 10px;
     right: 10px;
 }
