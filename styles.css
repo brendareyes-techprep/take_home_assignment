@@ -27,6 +27,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    font-family: 'Courier New', Courier, monospace;
 }
 .icons {
     display: flex;
